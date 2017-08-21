@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8xc-5s-dkW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="QED-WU-zpB">
+            <objects>
+                <viewController id="mFe-S5-SUg" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cdf-BA-6jS"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ir5-20-Bhb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Szb-HG-hlL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dPy-zJ-2ln"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="whD-L3-0r1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1120.8" y="141.67916041979012"/>
+        </scene>
+        <!--酒店-->
+        <scene sceneID="z8i-cw-UUo">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8xc-5s-dkW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="酒店" id="hLm-nO-twK"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IZh-0L-8fb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mFe-S5-SUg" kind="relationship" relationship="rootViewController" id="BZc-c6-aMa"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CsG-BM-PIZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="181.59999999999999" y="141.67916041979012"/>
+        </scene>
+    </scenes>
+</document>
